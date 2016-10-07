@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include"Book.h"
 using namespace std;
 double print_total(ostream& os, const Quote& item, size_t n)
@@ -11,7 +11,7 @@ int main()
 {
 	Quote item1("A001", 10);
 	Bulk_quote item2("A002", 20, 5, 0.2);
-	//Disc_quote item3("A002", 20, 5, 0.2);   //²»ÄÜÊµÀı»¯³éÏóÀà
+	//Disc_quote item3("A002", 20, 5, 0.2);   //ä¸èƒ½å®ä¾‹åŒ–æŠ½è±¡ç±»
 	print_total(cout, item1, 2);
 	print_total(cout, item2, 4);
 	print_total(cout, item2, 6);
